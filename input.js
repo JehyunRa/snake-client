@@ -7,6 +7,7 @@ const handleUserInput = function(input) {
   else if (input === 's') connection.write("Move: down");
   else if (input === 'a') connection.write("Move: left");
   else if (input === 'd') connection.write("Move: right");
+  else if (input === 'q') connection.write("Say: 😠");
 };
 
 const setupInput = function(conn) {
